@@ -1,0 +1,1 @@
+C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\PCBuilderApp.csproj;x64
