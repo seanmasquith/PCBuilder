@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0zPBR5sfQ0trL80AUol0YiyA/a6eFFtVngL1klBZqOMHwhIQBYOWQetIvJjhj+JNXLo+Y0/oPLNZvj+NMAGiaA==",
+  "dgSpecHash": "Nk9d7OvKwoDzaFBnUpQQUFbRcAi3xvjujFTqCyGZDin5vO722dkr2iUFpQEijISZeri1vv7nP39UwcCDRTbh2Q==",
   "success": true,
   "projectFilePath": "C:\\PCBuilder\\src\\PCBuilderApp\\PCBuilderApp\\PCBuilderApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sean\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
+    "C:\\Users\\Sean\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\Sean\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\Sean\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Sean\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
