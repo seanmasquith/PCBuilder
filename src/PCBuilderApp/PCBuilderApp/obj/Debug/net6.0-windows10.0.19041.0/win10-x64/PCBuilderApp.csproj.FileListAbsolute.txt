@@ -344,3 +344,9 @@ C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\obj\Debug\net6.0-windows10.0.19041.0\
 C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\HtmlAgilityPack.dll
+C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
+C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll

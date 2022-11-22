@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PCBuilderApp.MainPage">
 
-    <ScrollView>
+    <!-- <ScrollView>
         <VerticalStackLayout>
             <Label 
                 Text="Type PC Part Here:"
@@ -16,5 +16,5 @@
                 Placeholder="Enter Text"
                 Completed="OnEntryCompleted"/>
         </VerticalStackLayout>
-    </ScrollView>
+    </ScrollView>-->
 </ContentPage>

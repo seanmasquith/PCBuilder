@@ -6,12 +6,16 @@ namespace PCBuilderApp;
 
 public partial class MainPage : ContentPage
 {
+    
 	public MainPage()
 	{
 		InitializeComponent();
+
+        SQLiteDatabase database = new SQLiteDatabase();
+        var results = database.ReadPCBuilds();
 	}
 
-    string urlBuilder(string url, string[] partsArray)
+    /*string urlBuilder(string url, string[] partsArray)
     {
         string newUrl = url;
         for (int i = 0; i < partsArray.Length; i++)
@@ -55,7 +59,7 @@ public partial class MainPage : ContentPage
         
         //Display result
         DisplayAlert("Result", price, "Ok");
-    }
+    }*/
     
 }
 
