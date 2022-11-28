@@ -1,20 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PCBuilderApp.MainPage">
+             x:Class="PCBuilderApp.MainPage"
+             xmlns:model ="clr-namespace:PCBuilderApp.Models"
+             xmlns:viewmodel ="clr-namespace:PCBuilderApp.ViewModels"
+             x:DataType ="viewmodel:PCBuildViewModel"
+             Title ="{Binding Title}">
 
-    <!-- <ScrollView>
-        <VerticalStackLayout>
-            <Label 
-                Text="Type PC Part Here:"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center"/>
+    <Grid ColumnSpacing="1" RowSpacing="1" Padding="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
 
-            <Entry 
-                x:Name="PartEntry"
-                Placeholder="Enter Text"
-                Completed="OnEntryCompleted"/>
+        <VerticalStackLayout Padding="5" Grid.Row="0" Margin="9">
+            <Entry x:Name="Name" Placeholder="Enter build name" Text="{Binding Name}"></Entry>
+            <Entry x:Name="Cpu" Placeholder="Enter cpu" Text="{Binding Cpu}"></Entry>
+            <Entry x:Name="CpuCooler" Placeholder="Enter cpu cooler" Text="{Binding CpuCooler}"></Entry>
+            <Entry x:Name="Gpu" Placeholder="Enter gpu" Text="{Binding Gpu}"></Entry>
+            <Entry x:Name="Motherboard" Placeholder="Enter motherboard" Text="{Binding Motherboard}"></Entry>
+            <Entry x:Name="Ram" Placeholder="Enter ram" Text="{Binding Ram}"></Entry>
+            <Entry x:Name="Storage" Placeholder="Enter storage" Text="{Binding Storage}"></Entry>
+            <Entry x:Name="Psu" Placeholder="Enter psu" Text="{Binding Psu}"></Entry>
+            <Entry x:Name="PcCase" Placeholder="Enter case" Text="{Binding PcCase}"></Entry>
+            
         </VerticalStackLayout>
-    </ScrollView>-->
+
+        <Button Text="Create PC Build" Grid.Row="1" IsEnabled="{Binding IsNotLoading}"
+                Command="{Binding CreatePCBuildCommand}" Margin="9"></Button>
+
+        <Button Text="List PC Builds" Command="{Binding GetPCBuildsListCommand}" IsEnabled="{Binding IsNotLoading}"
+                Grid.Row="2" Margin="9"></Button>
+
+        <RefreshView Grid.Row="4"
+                     Command="{Binding GetPCBuildsListCommand}"
+                     IsRefreshing="{Binding IsRefreshing}">
+            <CollectionView ItemsSource="{Binding PCBuilds}" SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:PCBuild">
+                        <Grid Padding="10" ColumnDefinitions="*, auto">
+                            <Frame HeightRequest="90" Grid.Column="0">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PCBuildViewModel}}, Path=GetPCBuildDetailsCommand }"
+                                                          CommandParameter="{Binding PCBuildID}"/>
+                                </Frame.GestureRecognizers>
+                                <HorizontalStackLayout Padding="10" Spacing="5">
+                                    <Label Text="{Binding PCBuildName}"></Label>
+                                </HorizontalStackLayout>
+                            </Frame>
+                            <HorizontalStackLayout Grid.Column="1">
+                                <!--<Button Text="Update PC Build" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PCBuildViewModel}}, Path=UpdatePCBuildCommand }"
+                                                          CommandParameter="{Binding PCBuildID}" Margin="9"/>-->
+                                <Button Text="Delete PC Build" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PCBuildViewModel}}, Path=DeletePCBuildCommand }"
+                                                          CommandParameter="{Binding PCBuildID}" Margin="9"/>
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+    </Grid>
 </ContentPage>

@@ -38,3 +38,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PCBuilderApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/PCBuilder/src/PCBuilderApp/PCBuilderApp/Views/PCBuildDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PCBuilderApp.Views.PCBuildDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PCBuildDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PCBuildDetailsPage.xaml

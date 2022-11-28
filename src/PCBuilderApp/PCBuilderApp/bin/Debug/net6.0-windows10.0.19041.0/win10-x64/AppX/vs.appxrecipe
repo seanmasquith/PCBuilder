@@ -16,8 +16,7 @@
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>
-    </WindowsSdkPath>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>92313D4DCB0A8C3AB8224D9253B3F750573EA8240070CDB968C3C5624222D144</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>906B439A-5471-467E-8080-FC28B4F7B60A_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
@@ -30,25 +29,25 @@
     <AppXManifest Include="C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-22T03:33:05.250</Modified>
+      <Modified>2022-11-28T20:19:11.589</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-22T03:33:04.645</Modified>
+      <Modified>2022-11-28T20:19:11.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PCBuilderApp.runtimeconfig.json">
       <PackagePath>PCBuilderApp.runtimeconfig.json</PackagePath>
-      <Modified>2022-11-22T01:57:51.985</Modified>
+      <Modified>2022-11-28T08:57:37.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PCBuilderApp.dll">
       <PackagePath>PCBuilderApp.dll</PackagePath>
-      <Modified>2022-11-22T03:33:03.698</Modified>
+      <Modified>2022-11-28T20:19:10.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PCBuilderApp.exe</PackagePath>
-      <Modified>2022-11-22T03:33:03.717</Modified>
+      <Modified>2022-11-28T20:19:10.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -966,6 +965,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-08-17T03:26:26.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sean\.nuget\packages\communitytoolkit.mvvm\8.0.0\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2022-08-03T23:09:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\.nuget\packages\htmlagilitypack\1.11.46\lib\netstandard2.0\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
       <Modified>2022-09-14T13:23:02.000</Modified>
@@ -1092,7 +1095,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\PCBuilder\src\PCBuilderApp\PCBuilderApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\PCBuilderApp.deps.json">
       <PackagePath>PCBuilderApp.deps.json</PackagePath>
-      <Modified>2022-11-22T03:33:05.093</Modified>
+      <Modified>2022-11-28T20:19:11.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

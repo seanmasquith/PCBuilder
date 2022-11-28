@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ej7JLHt4qIVGQmoOeX0SYZ9cVfC8HGNUYblY4l3UmPc3KvrtSy/uRqbP5YccFaGm1DkQKsKsLAQK8V/OVKN1UA==",
+  "dgSpecHash": "jjrIPlxRS8ZrhF3kPT2cuNSynnmPHx2zM8piO44tnI6hXVoINOe87hwvmm16agNKxpGkK6q/PCUbO2CUWFjLqQ==",
   "success": true,
   "projectFilePath": "C:\\PCBuilder\\src\\PCBuilderApp\\PCBuilderApp\\PCBuilderApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sean\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",
     "C:\\Users\\Sean\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\Sean\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\Sean\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

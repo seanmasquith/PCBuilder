@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Web Scraping Demo"
+        Title="PC Builder"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

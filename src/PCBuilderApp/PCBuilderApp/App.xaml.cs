@@ -1,9 +1,14 @@
-﻿namespace PCBuilderApp;
+﻿using PCBuilderApp.Services;
+
+namespace PCBuilderApp;
 
 public partial class App : Application
 {
-    public App()
+    public static PCBuilderService PCBuilderService { get; private set; }
+
+    public App(PCBuilderService pcBuilderService)
     {
-        MainPage = new AppShell();
+        MainPage = new AppShell(); 
+        PCBuilderService = pcBuilderService;
     }
 }
