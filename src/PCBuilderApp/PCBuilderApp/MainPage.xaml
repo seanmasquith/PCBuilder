@@ -52,6 +52,14 @@
                                 </Frame.GestureRecognizers>
                                 <HorizontalStackLayout Padding="10" Spacing="5">
                                     <Label Text="{Binding PCBuildName}"></Label>
+                                    <Label Text="{Binding PCCpu}"></Label>
+                                    <Label Text="{Binding PCCpuCooler}"></Label>
+                                    <Label Text="{Binding PCGpu}"></Label>
+                                    <Label Text="{Binding PCMotherboard}"></Label>
+                                    <Label Text="{Binding PCRam}"></Label>
+                                    <Label Text="{Binding PCStorage}"></Label>
+                                    <Label Text="{Binding PCPsu}"></Label>
+                                    <Label Text="{Binding PCCase}"></Label>
                                 </HorizontalStackLayout>
                             </Frame>
                             <HorizontalStackLayout Grid.Column="1">
