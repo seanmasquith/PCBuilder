@@ -7,6 +7,13 @@
              x:DataType="vm:PCBuildDetailsViewModel">
 
     <StackLayout>
-       
+        <Label Text="{Binding PcBuild.PCCpu}" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label Text="{Binding PcBuild.PCCpuCooler}" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label Text="{Binding PcBuild.PCGpu}" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label Text="{Binding PcBuild.PCMotherboard}" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label Text="{Binding PcBuild.PCRam}" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label Text="{Binding PcBuild.PCStorage}" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label Text="{Binding PcBuild.PCPsu}" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label Text="{Binding PcBuild.PCCase}" VerticalOptions="Center" HorizontalOptions="Center"></Label>
     </StackLayout>
 </ContentPage>

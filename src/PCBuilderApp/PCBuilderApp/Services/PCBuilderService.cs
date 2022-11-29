@@ -44,7 +44,6 @@ namespace PCBuilderApp.Services
             {
                 StatusMessage = "Could not connect to the database.";
             }
-
             return null;
         }
 

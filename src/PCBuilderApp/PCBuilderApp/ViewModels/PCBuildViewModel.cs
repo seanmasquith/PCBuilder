@@ -15,7 +15,6 @@ namespace PCBuilderApp.ViewModels
     //Inherits from BaseViewModel
     public partial class PCBuildViewModel : BaseViewModel
     {
-        private readonly PCBuilderService pcBuilderService;
         public ObservableCollection<PCBuild> PCBuilds { get; private set; } = new();
 
         public PCBuildViewModel()
@@ -65,7 +64,7 @@ namespace PCBuilderApp.ViewModels
                     PCBuilds.Add(build);
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 await Shell.Current.DisplayAlert("Error", "Couldn't retrieve list", "Ok");
             }

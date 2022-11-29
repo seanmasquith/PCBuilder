@@ -20,7 +20,7 @@ namespace PCBuilderApp.ViewModels
 
         public void ApplyQueryAttributes(IDictionary<string, object> query)
         {
-            Id = Convert.ToInt32(HttpUtility.UrlDecode(query["Id"].ToString()));
+            Id = Convert.ToInt32(HttpUtility.UrlDecode(query[nameof(Id)].ToString()));
             PcBuild = App.PCBuilderService.GetPCBuild(Id);
         }
     }
